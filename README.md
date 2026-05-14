@@ -12,6 +12,11 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 > A robust, enterprise-grade Inventory Management System built with **PowerBuilder** and **SQL**, designed to streamline stock tracking, product management, and warehouse operations through a clean desktop interface.
+> 📊 Add inventory reports and PDF export functionality
+-  🔐 Implement user authentication and role-based access control (RBAC)
+-  🔔 Low-stock alerts and notification system
+-  📈 Dashboard with charts for stock movement analytics
+-  🧾 Purchase order and invoice generation
 
 </div>
 
@@ -173,11 +178,6 @@ Through this project, the following skills and concepts were practised and stren
 
 ## 🔮 Future Improvements
 
-- [ ] 📊 Add inventory reports and PDF export functionality
-- [ ] 🔐 Implement user authentication and role-based access control (RBAC)
-- [ ] 🔔 Low-stock alerts and notification system
-- [ ] 📈 Dashboard with charts for stock movement analytics
-- [ ] 🧾 Purchase order and invoice generation
 - [ ] 🌐 REST API integration for web/mobile connectivity
 - [ ] 🗂️ Audit trail / change log for data modifications
 - [ ] 🔄 Supplier and purchase management module

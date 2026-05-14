@@ -1,0 +1,94 @@
+# ============================================================
+#  PowerBuilder Project — .gitignore
+# ============================================================
+
+# ------------------------------------
+# PowerBuilder User & Session Files
+# ------------------------------------
+*.usr.opt           # User-specific IDE preferences (machine-specific)
+*.pbx               # Compiled PowerBuilder executable export
+*.pbd               # PowerBuilder Dynamic Library (compiled binary)
+*.pbr               # PowerBuilder Resource file
+*.exe               # Compiled executable (build output)
+*.dll               # Dynamic link libraries (build output)
+
+# ------------------------------------
+# PowerBuilder Temporary & Debug Files
+# ------------------------------------
+*.log               # Log files
+*.tmp               # Temporary files
+*.bak               # Backup files
+*.old               # Old backup versions
+~*.pbl              # Locked/temp library files created by PB IDE
+~*.pbw              # Locked workspace temp files
+
+# ------------------------------------
+# Build / Deploy Output
+# ------------------------------------
+/build/
+/dist/
+/output/
+/release/
+/deploy/
+
+# ------------------------------------
+# Database & Connection Files
+# ------------------------------------
+*.db                # Local SQLite or embedded database files
+*.mdb               # Microsoft Access database
+*.ldf               # SQL Server Log Data File
+*.mdf               # SQL Server Master Data File
+connection.ini      # Connection string config (may contain credentials)
+db_config.ini       # Database configuration with credentials
+*.dsn               # ODBC Data Source files (machine-specific)
+
+# ------------------------------------
+# Environment & Secrets
+# ------------------------------------
+.env
+.env.local
+.env.production
+secrets.txt
+credentials.txt
+config.local.*
+
+# ------------------------------------
+# OS Generated Files
+# ------------------------------------
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS (if ever used on Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ------------------------------------
+# IDE & Editor Files
+# ------------------------------------
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*~
+
+# ------------------------------------
+# Screenshots (optional — uncomment to ignore)
+# ------------------------------------
+# /screenshots/
+
+# ------------------------------------
+# Node / NPM (if any tooling used)
+# ------------------------------------
+node_modules/
+npm-debug.log*
+
+# ------------------------------------
+# Windows PowerShell / Batch artifacts
+# ------------------------------------
+*.ps1.bak
